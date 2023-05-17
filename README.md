@@ -1,3 +1,5 @@
+# Learning Mixtures of Markov Chains and MDPs
+
 This repository contains the code for the paper Learning Mixtures of Markov Chains and MDPs,
     by Chinmaya Kausik, Kevin Tan and Ambuj Tewari. 
 This paper was accepted to ICML 2023 for a short live presentation,
