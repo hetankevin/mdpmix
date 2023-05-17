@@ -170,5 +170,6 @@ dmypy.json
 cython_debug/
 
 mcmix/Lastfm-ArtistTags2007
-mcmix/lastfm-dataset-1K
+.dat
+*.dat
 
