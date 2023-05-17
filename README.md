@@ -4,6 +4,20 @@ This repository contains the code for the paper Learning Mixtures of Markov Chai
     by Chinmaya Kausik, Kevin Tan and Ambuj Tewari. 
 This paper was accepted to ICML 2023 for a short live presentation,
     and is available on arXiv at https://arxiv.org/abs/2211.09403.
+It presents, with provable guarantees, 
+    an algorithm for learning mixtures of Markov chains and MDPs using unlabeled (relatively) short trajectories,
+    with their required length being on the order of the mixing time of the system.
+This uses the long-standing idea that parameters for K models 
+    in a mixture should lie in the K dimensional subspace spanned by them. 
+Said algorithm first estimates this subspace by aggregating across trajectories.
+It then computes a dissimilarity statistic, 
+    thresholds the data according to a user-defined threshold estimable with a histogram of the dissimilarity statistic, 
+    and clusters the trajectories with spectral clustering,
+One can then estimate each of the K models, classify new trajectories, 
+    and then optionally refine the models with the EM algorithm.
+
+
+## Files
 
 The main driver file is in mcmix/mdpRep.ipynb. 
     This reproduces all the plots for the paper.
@@ -14,7 +28,6 @@ There is a supplementary driver file, mcmix/artistsMC.ipynb,
 That dataset is available here http://mtg.upf.edu/static/datasets/last.fm/lastfm-dataset-1K.tar.gz
     and what you need from the artist tags is in this repository.
 
-    
 mcmix/MixMDP.ipynb is a testbed notebook on a smaller gridworld, 
     for experiments where only one trial is conducted.
     
