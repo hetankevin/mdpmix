@@ -4,6 +4,7 @@ This repository contains the code for the paper Learning Mixtures of Markov Chai
     by Chinmaya Kausik, Kevin Tan and Ambuj Tewari. 
 This paper was accepted to ICML 2023 for a short live presentation,
     and is available on arXiv at https://arxiv.org/abs/2211.09403.
+    
 It presents, with provable guarantees, 
     an algorithm for learning mixtures of Markov chains and MDPs using unlabeled (relatively) short trajectories,
     with their required length being on the order of the mixing time of the system.
