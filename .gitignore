@@ -169,7 +169,7 @@ dmypy.json
 # Cython debug symbols
 cython_debug/
 
-mcmix/Lastfm-ArtistTags2007
+
 .dat
 *.dat
 
