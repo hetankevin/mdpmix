@@ -13,7 +13,7 @@ This uses the long-standing idea that parameters for K models
 Said algorithm first estimates this subspace by aggregating across trajectories.
 It then computes a dissimilarity statistic, 
     thresholds the data according to a user-defined threshold estimable with a histogram of the dissimilarity statistic, 
-    and clusters the trajectories with spectral clustering,
+    and clusters the trajectories with spectral clustering.
 One can then estimate each of the K models, classify new trajectories, 
     and then optionally refine the models with the EM algorithm.
 
