@@ -38,7 +38,7 @@ mcmix/clustering.py, mcmix/emalg.py, mcmix/subspace.py, mcmix/helpers.py
 mcmix/matplotlibrc contains the style file, from Jonny Brooks-Bartlett 
     (https://gist.github.com/JonnyCBB/c464d302fefce4722fe6cf5f461114ea)
     
-The folder core contains code for the environment, mdp class, and more helper functions. 
+The folder core contains code for the environment, MDP class, and more helper functions. 
     The code for this section was kindly provided by David Bruns-Smith, 
     Model-Free and Model-Based Policy Evaluation when Causality is Uncertain, 
     (https://arxiv.org/abs/2204.00956)
